@@ -1,0 +1,27 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.txt
+
+# History files
+*.Rhistory
+*.Rapp.history
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# rar
+*.rar
+*.zip
+
+# office
+*.xls
+*.xlsx
