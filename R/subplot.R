@@ -1,10 +1,20 @@
-# 主副图绘制函数
+# 将两张fig以主副图的形式打印成png图片
 #
-# @param main 主图引用
-# @param sub 副图引用
-# @param wh 副图的宽高
-# @param corner 代表副图位置的字符串
-# @param offset 副图中心的偏移量
+# Args:
+#   main: 主图引用
+#   sub: 副图引用
+#   ...: png函数的参数
+#   wh: 副图的宽高
+#   corner: 代表副图位置的字符串
+#   offset: 副图中心的偏移量
+#
+# Returns：
+#   一张png图片
+#
+# Examples:
+#   a <- qplot(...)
+#   b <- qplot(...)
+#   subplot(a, b, filename = "test.png")
 require(grid)
 
 

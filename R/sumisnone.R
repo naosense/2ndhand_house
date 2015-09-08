@@ -1,3 +1,4 @@
+# 验证数据框的每一列是否有空值或NA
 require(plyr)
 
 isnone <- function(cl) {
